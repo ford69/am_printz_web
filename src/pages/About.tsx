@@ -163,11 +163,8 @@ const About = ({ setCurrentPage }: { setCurrentPage: (page: string) => void }) =
                 for craftsmanship to ensure every piece stands out. Our promise? Consistency, creativity, and care — on every single job.
               </p>
               <div className="bg-gradient-to-r from-purple-50 to-pink-50 p-6 rounded-xl">
-                <p className="text-purple-800 font-medium italic">
-                  "Great printing isn't just about paper and ink — it's about helping you tell your story, 
-                  showcase your brand, and leave a lasting impression."
-                </p>
-                <p className="text-purple-600 font-semibold mt-2">- – Albright Jason Kwaku Mensah, Founder</p>
+
+                <p className="text-purple-600 font-semibold mt-2">– Albright Jason Kwaku Mensah, Founder</p>
               </div>
             </div>
             
