@@ -5,7 +5,8 @@ import brochure from '../assets/brochure.png';
 import customized from '../assets/customized.png';
 import largeFormat from '../assets/largeFormat.png';
 import brand from '../assets/brand.png';
-import bgBanner from '../assets/bgBanner.jpeg'; // adjust path as needed
+import bgBanner from '../assets/bgBanner.jpeg'; 
+import bgBanner2 from '../assets/bgBanner2.jpeg'; 
 
 const Home = ({ setCurrentPage }: { setCurrentPage: (page: string) => void }) => {
   const stats = [
@@ -218,9 +219,9 @@ const Home = ({ setCurrentPage }: { setCurrentPage: (page: string) => void }) =>
                 image: largeFormat
               },
               {
-                title: 'Product Catalogs',
-                category: 'Catalog Printing',
-                image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800'
+                title: 'Large Format Printing',
+                category: 'Large Format',
+                image: bgBanner2
               },
               {
                 title: 'Wedding Invitations',
