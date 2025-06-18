@@ -42,7 +42,7 @@ const About = ({ setCurrentPage }: { setCurrentPage: (page: string) => void }) =
       name: 'Alex Martinez',
       role: 'Founder & CEO',
       image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400',
-      bio: 'With 20+ years in the printing industry, Alex founded AM PRINTZ with a vision to provide exceptional printing services.',
+      bio: 'With 20+ years in the printing industry, Alex founded AM PRINTS with a vision to provide exceptional printing services.',
       email: 'alex@amprintz.com'
     },
     {
@@ -117,10 +117,10 @@ const About = ({ setCurrentPage }: { setCurrentPage: (page: string) => void }) =
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
-                About <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">AM PRINTZ</span>
+                About <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">AM PRINT</span>
               </h1>
               <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-                Although newly established, AM PRINTZ has quickly become a trusted name in professional printing.
+                Although newly established, AM PRINTS has quickly become a trusted name in professional printing.
                 Through a bold mix of creativity, modern technology, and unwavering commitment to quality, 
                 we've earned the confidence of businesses and individuals alike. Whether it's business cards, 
                 large-format prints, or custom merchandise, we bring your ideas to life with precision, passion, and a personal touch.
@@ -155,7 +155,7 @@ const About = ({ setCurrentPage }: { setCurrentPage: (page: string) => void }) =
             <div className="space-y-6">
               <h2 className="text-3xl font-bold text-gray-900">Our Story</h2>
               <p className="text-lg text-gray-600 leading-relaxed">
-                AM PRINTZ was founded with a bold vision: to redefine what printing means for modern businesses and creatives. 
+                AM PRINTS was founded with a bold vision: to redefine what printing means for modern businesses and creatives. 
                 What began as a small neighborhood print shop has quickly grown into a full-service studio trusted by clients across the region.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
@@ -304,7 +304,7 @@ const About = ({ setCurrentPage }: { setCurrentPage: (page: string) => void }) =
             Ready to Bring Your Ideas to Life?
           </h2>
           <p className="text-xl text-purple-100 mb-8 max-w-2xl mx-auto">
-            Get a free quote today and discover why thousands of businesses trust AM PRINTZ
+            Get a free quote today and discover why thousands of businesses trust AM PRINTS
             for their printing needs.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

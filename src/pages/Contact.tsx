@@ -158,7 +158,7 @@ const Contact = () => {
               Get In <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">Touch</span>
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Ready to bring your printing project to life? Contact AM PRINTZ today for a free quote 
+              Ready to bring your printing project to life? Contact AM PRINTS today for a free quote 
               and expert consultation on all your printing needs.
             </p>
           </div>
@@ -451,7 +451,7 @@ const Contact = () => {
             Ready to Bring Your Ideas to Life?
           </h2>
           <p className="text-xl text-purple-100 mb-8 max-w-2xl mx-auto">
-            Get a free quote today and discover why thousands of businesses trust AM PRINTZ
+            Get a free quote today and discover why thousands of businesses trust AM PRINTS
             for their printing needs.
           </p>
         </div>

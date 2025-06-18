@@ -181,7 +181,7 @@ const Services = ({ setCurrentPage }: { setCurrentPage: (page: string) => void }
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose AM PRINTZ?
+              Why Choose AM PRINTS?
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               We're committed to delivering exceptional quality and service that exceeds your expectations.
@@ -254,7 +254,7 @@ const Services = ({ setCurrentPage }: { setCurrentPage: (page: string) => void }
             Ready to Bring Your Ideas to Life?
           </h2>
           <p className="text-xl text-purple-100 mb-8 max-w-2xl mx-auto">
-            Get a free quote today and discover why thousands of businesses trust AM PRINTZ
+            Get a free quote today and discover why thousands of businesses trust AM PRINT
             for their printing needs.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
