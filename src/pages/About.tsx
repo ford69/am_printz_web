@@ -309,7 +309,14 @@ const About = ({ setCurrentPage }: { setCurrentPage: (page: string) => void }) =
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button 
-              onClick={() => setCurrentPage('contact')}
+              onClick={() => {
+                const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+                if (isMobile) {
+                  window.location.href = 'tel:+233553728715';
+                } else {
+                  setCurrentPage('contact');
+                }
+              }}
               className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-purple-600 transition-all duration-300">
               Contact Us Now
             </button>
