@@ -380,7 +380,14 @@ const Contact = () => {
                         <div className="flex-1">
                           <h3 className="font-semibold text-gray-900 mb-1">{option.title}</h3>
                           <p className="text-sm text-gray-600 mb-3">{option.description}</p>
-                          <button className="text-purple-600 hover:text-purple-700 font-medium text-sm transition-colors duration-200">
+                          <button 
+                            onClick={() => {
+                              const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+                              if (isMobile) {
+                                window.location.href = 'tel:+233553728715';
+                              }
+                            }}
+                            className="text-purple-600 hover:text-purple-700 font-medium text-sm transition-colors duration-200">
                             {option.action} →
                           </button>
                         </div>
