@@ -13,12 +13,12 @@ const Footer = () => {
               <div className="bg-white p-2 rounded-xl">
                 <img
                   src={logo}
-                  alt="AM PRINTZ Logo"
+                  alt="AM PRINTS HUB Logo"
                   className="h-12 w-12 object-contain"
                 />
               </div>
               <div>
-                <span className="text-xl font-bold">AM PRINTZ</span>
+                <span className="text-xl font-bold">AM PRINTS</span>
                 <p className="text-xs text-gray-400">Professional Printing</p>
               </div>
             </div>

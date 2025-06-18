@@ -31,13 +31,13 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
   <div className=" group-hover:scale-110 transition-transform duration-300">
     <img
       src={logo}
-      alt="AM PRINTZ Logo"
+      alt="AM PRINTS Logo"
       className="h-12 w-12 object-contain"
     />
   </div>
   <div className="flex flex-col">
     <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-yellow-600 bg-clip-text text-transparent">
-      AM PRINTZ
+      AM PRINTS
     </span>
     <span className="text-xs text-black -mt-1">Professional Printing</span>
   </div>
