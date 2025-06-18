@@ -95,9 +95,9 @@ const Home = ({ setCurrentPage }: { setCurrentPage: (page: string) => void }) =>
                   <span>Get Free Quote</span>
                   <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform duration-300" />
                 </button>
-                <button className="px-8 py-4 border-2 border-gray-300 text-gray-700 rounded-full font-semibold text-lg hover:border-purple-600 hover:text-purple-600 transition-all duration-300">
+                {/* <button className="px-8 py-4 border-2 border-gray-300 text-gray-700 rounded-full font-semibold text-lg hover:border-purple-600 hover:text-purple-600 transition-all duration-300">
                   View Portfolio
-                </button>
+                </button> */}
               </div>
 
               <div className="grid grid-cols-2 gap-4 pt-8">

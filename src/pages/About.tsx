@@ -10,11 +10,10 @@ import {
   Clock,
   Shield
 } from 'lucide-react';
-import { Link } from "react-router-dom";
 import bgBanner4 from '../assets/bgBanner4.jpeg'; 
 import bgBanner5 from '../assets/bgBanner5.jpeg';
 
-const About = () => {
+const About = ({ setCurrentPage }: { setCurrentPage: (page: string) => void }) => {
   const values = [
     {
       icon: Target,
@@ -98,6 +97,17 @@ const About = () => {
       description: 'Rigorous quality control processes ensure every job meets our high standards.'
     }
   ];
+  const handleCallClick = () => {
+    // Check if the device is mobile
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    if (isMobile) {
+      // Use the company's phone number
+      window.location.href = 'tel:+233553728715';
+    } else {
+      // If not mobile, redirect to contact page
+      setCurrentPage('contact');
+    }
+  };
 
   return (
     <div className="pt-20">
@@ -154,7 +164,7 @@ const About = () => {
               </p>
               <div className="bg-gradient-to-r from-purple-50 to-pink-50 p-6 rounded-xl">
                 <p className="text-purple-800 font-medium italic">
-                  "Great printing isn’t just about paper and ink — it’s about helping you tell your story, 
+                  "Great printing isn't just about paper and ink — it's about helping you tell your story, 
                   showcase your brand, and leave a lasting impression."
                 </p>
                 <p className="text-purple-600 font-semibold mt-2">- – Albright Jason Kwaku Mensah, Founder</p>
@@ -301,12 +311,11 @@ const About = () => {
             for their printing needs.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-            to="contact"
-            className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-purple-600 transition-all duration-300 text-center"
-          >
-            Contact Us Now
-          </Link>
+            <button 
+              onClick={() => setCurrentPage('contact')}
+              className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-purple-600 transition-all duration-300">
+              Contact Us Now
+            </button>
           </div>
         </div>
       </section>
