@@ -31,7 +31,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
   <div className=" group-hover:scale-110 transition-transform duration-300">
     <img
       src={logo}
-      alt="AM PRINTS Logo"
+      alt="AM PRINTS"
       className="h-12 w-12 object-contain"
     />
   </div>
